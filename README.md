@@ -1,7 +1,7 @@
 # Inference of Student Needs in STEM Self-Study using Facial Expression Recognition
 
 ## Project Description
-This repository contains the implementation and data analysis for a research project that infers student needs in STEM self-study environments using facial expression recognition (FACS) and machine learning. The system integrates facial action unit analysis with self-reported needs surveys to classify student cognitive and emotional states during learning sessions.
+This repository contains the implementation and data analysis for a research project that infers student needs in STEM self-study environments using facial expression recognition (FACS) and machine learning.
 
 ## Files Included
 - `alldata_17.csv` - Final dataset with 17 normalized AU intensity features
@@ -13,7 +13,7 @@ This repository contains the implementation and data analysis for a research pro
 - `preprocessing_2.ipynb` - Feature engineering and normalization pipeline
 - `train.ipynb` - Primary MLP training achieving 91.2% accuracy
 - `train_2.ipynb` - Alternative training approaches and model variations
-  
+
 ## Key Features
 - MLP neural network with 91.2% accuracy in classifying 5 student need categories
 - Synchronized multimodal data collection (facial AUs, surveys, mouse logs)
@@ -32,15 +32,15 @@ This repository contains the implementation and data analysis for a research pro
 
 ## Usage Instructions
 1. Data preprocessing:
-   - Run preprocessing_1.ipynb for data synchronization and labeling
-   - Run preprocessing_2.ipynb for feature engineering
+   - Run `preprocessing_1.ipynb` for data synchronization and labeling
+   - Run `preprocessing_2.ipynb` for feature engineering
 2. Data analysis:
-   - distribution.ipynb for label distribution
-   - factor_analysis.ipynb for AU correlations
+   - `distribution.ipynb` for label distribution
+   - `factor_analysis.ipynb` for AU correlations
 3. Model training:
-   - train.ipynb for primary MLP implementation
-   - train_2.ipynb for alternative approaches
-   - loocv.ipynb for cross-validation tests
+   - `train.ipynb` for primary MLP implementation
+   - `train_2.ipynb` for alternative approaches
+   - `loocv.ipynb` for cross-validation tests
 
 ## Requirements
 - Python 3.8+
