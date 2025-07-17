@@ -4,15 +4,15 @@
 This repository contains the implementation and data analysis for a research project that infers student needs in STEM self-study environments using facial expression recognition (FACS) and machine learning.
 
 ## Files Included
-- `alldata_17.csv` - Final dataset with 17 normalized AU intensity features
-- `combined_participant_data.csv` - Aggregated participant data from all sessions
-- `distribution.ipynb` - Analysis of label distribution and data imbalances
-- `factor_analysis.ipynb` - Action Unit correlation studies
-- `loocv.ipynb` - Leave-One-Out Cross-Validation implementation and tests
-- `preprocessing_1.ipynb` - Raw data synchronization and labeling workflow
-- `preprocessing_2.ipynb` - Feature engineering and normalization pipeline
-- `train.ipynb` - Primary MLP training achieving 91.2% accuracy
-- `train_2.ipynb` - Alternative training approaches and model variations
+- `alldata_17.csv`: Final dataset with 17 normalized AU intensity features
+- `combined_participant_data.csv`: Aggregated participant data from all sessions
+- `distribution.ipynb`: Analysis of label distribution and data imbalances
+- `factor_analysis.ipynb`: Action Unit correlation studies
+- `loocv.ipynb`: Leave-One-Out Cross-Validation implementation and tests
+- `preprocessing_1.ipynb`: Raw data synchronization and labeling workflow
+- `preprocessing_2.ipynb`: Feature engineering and normalization pipeline
+- `train.ipynb`: Primary MLP training achieving 91.2% accuracy
+- `train_2.ipynb`: Alternative training approaches and model variations
 
 ## Key Features
 - MLP neural network with 91.2% accuracy in classifying 5 student need categories
