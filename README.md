@@ -4,7 +4,7 @@
 This repository contains the implementation and data analysis for a research project that infers student needs in STEM self-study environments using facial expression recognition (FACS) and machine learning. The system integrates facial action unit analysis with self-reported needs surveys to classify student cognitive and emotional states during learning sessions.
 
 ## Files Included
-- alldata_17.csv - Final dataset with 17 normalized AU intensity features
+- 'alldata_17.csv' - Final dataset with 17 normalized AU intensity features
 - combined_participant_data.csv - Aggregated participant data from all sessions
 - distribution.ipynb - Analysis of label distribution and data imbalances
 - factor_analysis.ipynb - Action Unit correlation studies
