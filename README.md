@@ -1,6 +1,6 @@
 # Inference of Student Needs in STEM Self-Study using Facial Expression Recognition
 
-## Project Description
+## Project Overview
 This repository contains the implementation and data analysis for a research project that infers student needs in STEM self-study environments using facial expression recognition (FACS) and machine learning.
 
 ## Files Included
